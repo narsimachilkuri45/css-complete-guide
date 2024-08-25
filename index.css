@@ -1,0 +1,36 @@
+
+/* tag selector */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* id selector */
+#title {
+    font-family: 'Bungee Tint', cursive;
+    font-size: 50px;
+    color: blue;
+}
+
+/* class selector */
+.second-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: blue;
+}
+
+/* attribute selector */
+[disabled] {
+    background: #9a9a9a;
+}
+
+/* combinator */
+p section {
+    font-family: inherit;
+}
+
+
+.section {
+    padding: 30px 20px;
+    margin: 20px;
+    border: 5px solid black; 
+}
